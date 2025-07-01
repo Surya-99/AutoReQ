@@ -1,0 +1,93 @@
+.page-title {
+    color: #cc0000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.wrapper-for-drop {
+    margin-bottom: 20px;
+}
+
+.dropzone {
+    border: 2px dashed #cc0000;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    transition: border-color 0.3s;
+}
+
+.dropzone:hover {
+    border-color: #990000;
+    cursor: pointer;
+}
+
+.dropzone-text {
+    color: #333;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.file-name {
+    color: #555;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.submit-button, .action-button {
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover, .action-button:hover {
+    background-color: #990000;
+}
+
+.submit-button:disabled, .action-button:disabled {
+    background-color: #ff4d4d;
+    cursor: not-allowed;
+}
+
+.submit-status {
+    color: #006600;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.content-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.content-section {
+    margin-bottom: 15px;
+}
+
+.content-section h3 {
+    color: #cc0000;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.content-section p {
+    color: #333;
+    line-height: 1.5;
+}
